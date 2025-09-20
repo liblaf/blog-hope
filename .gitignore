@@ -4,4 +4,10 @@ src/.vuepress/.cache/
 src/.vuepress/.temp/
 src/.vuepress/dist/
 
+# Images
+*.ico
+*.jpg
+*.png
+*.svg
+
 obsidian/
