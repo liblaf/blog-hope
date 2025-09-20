@@ -3,6 +3,8 @@ name: Deploy
 on:
   push:
   pull_request:
+  schedule:
+    - cron: "0 0 * * *" # Runs at 00:00
   workflow_dispatch:
 
 jobs:
