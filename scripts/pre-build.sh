@@ -6,6 +6,8 @@ set -o pipefail
 wget --output-document='src/.vuepress/public/avatar.jpg' 'https://assets.liblaf.me/avatar.jpg'
 
 FOLDERS=(
+  2022
+  2023
   2024
   2025
   PhD
