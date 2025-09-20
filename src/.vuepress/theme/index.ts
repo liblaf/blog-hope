@@ -1,9 +1,9 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
-import navbar from "./navbar.ts";
-import sidebar from "./sidebar.ts";
-import markdown from "./theme/markdown.ts";
-import plugins from "./theme/plugins.ts";
+import navbar from "../navbar.ts";
+import sidebar from "../sidebar.ts";
+import markdown from "./markdown.ts";
+import plugins from "./plugins.ts";
 
 // Theme Config
 // ref: <https://theme-hope.vuejs.press/config/theme/>

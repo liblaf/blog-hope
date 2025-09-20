@@ -1,6 +1,6 @@
 import { defineUserConfig } from "vuepress";
 
-import theme from "./theme.ts";
+import theme from "./theme/index.ts";
 
 export default defineUserConfig({
   // ref: <https://vuepress.vuejs.org/reference/config.html>
