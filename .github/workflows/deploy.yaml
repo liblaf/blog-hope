@@ -50,3 +50,6 @@ jobs:
         with:
           folder: src/.vuepress/dist
           single-commit: true
+      - if: github.ref == 'refs/heads/main'
+        name: Setup GitHub Pages
+        uses: liblaf/actions/setup-pages@dist
