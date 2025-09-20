@@ -23,7 +23,7 @@ export default {
       const basename: string = path.basename(path_);
       if (basename in CATALOG_FRONTMATTER) return CATALOG_FRONTMATTER[basename];
       return {
-        title: basename.replace("_", " "),
+        title: basename.replace(/_/g, " "),
       };
     },
   },
