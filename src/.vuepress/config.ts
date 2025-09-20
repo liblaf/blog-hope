@@ -3,7 +3,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme/index.ts";
 
 export default defineUserConfig({
-  // ref: <https://vuepress.vuejs.org/reference/config.html>
+  // ref: <https://vuejs.press/reference/config.html>
   title: "liblaf",
   description: "Life blooms like a flower.",
 
