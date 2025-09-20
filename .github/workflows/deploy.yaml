@@ -9,7 +9,7 @@ jobs:
   deploy:
     name: Deploy
     permissions:
-      contents: read
+      contents: write
       pages: write
     runs-on: ubuntu-latest
     steps:
