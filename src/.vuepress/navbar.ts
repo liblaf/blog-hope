@@ -7,6 +7,13 @@ export default navbar([
   {
     text: "Archive",
     icon: "material-symbols:archive-rounded",
-    children: ["/catalog.html", "/2025/", "/2024/", "/PhD/"],
+    children: [
+      "/catalog.html",
+      "/2025/",
+      "/2024/",
+      "/2023/",
+      "/2022/",
+      "/PhD/",
+    ],
   },
 ]);
