@@ -1,0 +1,8 @@
+{
+  "$schema": "https://biomejs.dev/schemas/latest/schema.json",
+  "extends": ["@liblaf/config/biome"],
+  "files": {
+    "includes": ["!**/*.vue"]
+  },
+  "root": true
+}

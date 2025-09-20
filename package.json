@@ -1,0 +1,29 @@
+{
+  "name": "@liblaf/blog",
+  "description": "liblaf's blog",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
+    "docs:update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@liblaf/config": "^0.1.1",
+    "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.112",
+    "mathjax-full": "^3.2.2",
+    "mermaid": "^11.12.0",
+    "sass-embedded": "^1.93.0",
+    "vue": "^3.5.21",
+    "vuepress": "2.0.0-rc.24",
+    "vuepress-theme-hope": "2.0.0-rc.94"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}

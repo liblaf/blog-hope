@@ -1,0 +1,7 @@
+#:schema https://mise.jdx.dev/schema/mise.json
+
+[env]
+_.path = ["{{ config_root }}/node_modules/.bin"]
+
+[hooks]
+enter = "pnpm install"
