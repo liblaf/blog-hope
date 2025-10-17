@@ -50,6 +50,11 @@ jobs:
           pnpm run docs:build
           > 'src/.vuepress/dist/.nojekyll'
       - if: github.ref == 'refs/heads/main'
+        name: Deploy to Cloudflare
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      - if: github.ref == 'refs/heads/main'
         name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
