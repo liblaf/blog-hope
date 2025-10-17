@@ -12,7 +12,9 @@ export default {
   },
 
   // Search Plugin Config
-  slimsearch: true,
+  slimsearch: {
+    indexContent: true,
+  },
 
   // Blog Plugin Config
   blog: true,
