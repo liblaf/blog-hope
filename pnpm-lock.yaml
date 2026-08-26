@@ -36,7 +36,7 @@ importers:
         specifier: 2.0.0-rc.96
         version: 2.0.0-rc.96(@vuepress/plugin-slimsearch@2.0.0-rc.126(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@24.8.1)(@vue/compiler-sfc@3.5.41)(esbuild@0.27.3)(sass-embedded@1.98.0)(sass@1.98.0)(supports-color@10.2.2)(typescript@5.9.3)(yaml@2.9.0))(typescript@5.9.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@24.8.1)(@vue/compiler-sfc@3.5.41)(esbuild@0.27.3)(sass-embedded@1.98.0)(sass@1.98.0)(supports-color@10.2.2)(typescript@5.9.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3))))(katex@0.16.38)(markdown-it@14.3.0)(mathjax-full@3.2.2)(mermaid@11.13.0)(sass-embedded@1.98.0)(sass@1.98.0)(typescript@5.9.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@24.8.1)(@vue/compiler-sfc@3.5.41)(esbuild@0.27.3)(sass-embedded@1.98.0)(sass@1.98.0)(supports-color@10.2.2)(typescript@5.9.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@5.9.3)(vue@3.5.31(typescript@5.9.3)))
       wrangler:
-        specifier: ^4.77.0
+        specifier: ^4.78.0
         version: 4.78.0
 
 packages:
